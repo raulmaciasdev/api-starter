@@ -2,7 +2,7 @@
   "name": "api-starter",
   "version": "1.0.0",
   "description": "Backend API Starter Kit (Node.js + Express)",
-  "license": "ISC",
+  "license": "MIT",
   "author": "raulmaciasdev",
   "type": "commonjs",
   "main": "server.js",
