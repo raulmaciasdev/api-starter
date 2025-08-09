@@ -23,6 +23,10 @@ app.get('/ping', (req, res) => {
 const userRoutes = require('./routes/userRoutes');
 app.use('/api/users', userRoutes);
 
+// Error handling middleware
+const errorHandler = require('./middlewares/errorHandler');
+app.use(errorHandler);
+
 const port = process.env.PORT || 3000;
 // Start the server
 app.listen(port, () => {
